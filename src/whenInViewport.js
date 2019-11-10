@@ -186,7 +186,7 @@
 
             if (scrollOffset + windowHeight >= item.topOffset - item.threshold) {
 
-                this.removeItem(item);
+                //this.removeItem(item);
                 item.callback.call(item.context || window, item.element);
 
             }
